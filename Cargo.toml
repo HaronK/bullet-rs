@@ -1,0 +1,10 @@
+[package]
+name = "bullet-rs"
+version = "0.1.0"
+authors = ["Oleg Khryptul <okreptul@yahoo.com>"]
+
+[dependencies.bullet-sys]
+git = "https://github.com/HaronK/bullet-sys"
+features = ["build","bind"]
+
+[dependencies]
