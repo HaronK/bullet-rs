@@ -1,7 +1,3 @@
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
-}
+pub extern crate bullet_sys;
+
+use bullet_sys::bullet::*;

@@ -11,6 +11,7 @@ Clone and compile project:
 ```bash
 git clone https://github.com/HaronK/bullet-rs.git
 cd ./bullet-rs
+git submodule update --init --recursive
 cargo build --release
 ```
 
