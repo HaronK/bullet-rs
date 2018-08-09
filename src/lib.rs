@@ -1,3 +1,3 @@
 pub extern crate bullet_sys;
 
-use bullet_sys::bullet::*;
+//use bullet_sys::bullet::*;
